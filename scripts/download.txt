@@ -64,7 +64,7 @@ https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadap
   out=models/controlnet/t2iadapter_sketch-fp16.safetensors
 https://civitai.com/models/120096
   out=models/loras/pixel_xl.safetensors
- https://civitai.com/models/101055
+https://civitai.com/models/101055
   out=models/checkpoints/SD_XL_1.
 
 
