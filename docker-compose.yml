@@ -9,7 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "lilai-pixels"
+    image: "lilai-pixels1"
     user: "root"
     volumes: 
       - "./storage:/home/runner"
@@ -23,7 +23,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "lilai-pixels"
+    image: "lilai-pixels1"
     ports:
       - "8188:8188"
     volumes:
