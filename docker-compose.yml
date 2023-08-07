@@ -9,7 +9,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "mycomfyui-boot"
+    image: "lilai-pixels"
     user: "root"
     volumes: 
       - "./storage:/home/runner"
@@ -23,7 +23,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: "mycomfyui-boot"
+    image: "lilai-pixels"
     ports:
       - "8188:8188"
     volumes:
